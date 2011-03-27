@@ -1,0 +1,13 @@
+%link(rel="stylesheet" type="text/css" href="style.css")
+%div.main
+	%h1.title 查询结果：
+	- unless @results.empty?
+		- @results.each do |r|
+			.item
+				%li
+					-puts r
+					%a{:href=>r}=r.split('/').last
+	
+	-else
+		%h1.blank
+			没有匹配的记录。

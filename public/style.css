@@ -1,0 +1,36 @@
+.main{
+	margin: 0px auto;
+	width:960px;
+	border: 1px solid #999;
+	padding: 20px 20px;
+	background-color: #DDD;
+}
+.item{
+	margin:20px 20px;
+	width:960px;
+	text-align:center;
+}
+.search{
+	margin:100px auto;
+	background-color: #CCC;
+	padding: 20px 20px;
+	border: 1px solid #999;
+}
+.search_box{
+	margin:20px auto;
+	font: 20px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	line-height:20px;
+	width:100%;
+	text-align:center;
+	
+}
+.search_box .input{
+	margin:0px auto;
+	height:30px;
+	width:300px;
+}
+.title{
+	margin:0px auto;
+	width:100%;
+	 text-align:center;
+}

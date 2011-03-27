@@ -1,0 +1,11 @@
+%link(rel="stylesheet" type="text/css" href="style.css")
+.search
+	%h1.title 请输入查询的影片名字
+	%br	
+	%div.search_box
+		%form{:action=>'/query',:method=>:post}
+			%input.input{:type=>'text',:name=>'search'}
+
+			%input{:type=>'submit'}
+	%div.search_box
+		%h3="总共访问次数 #{count}"
